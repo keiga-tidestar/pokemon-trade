@@ -6,6 +6,34 @@ body {
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
+.button,
+.button:hover,
+.button:focus {
+	text-decoration: none;
+}
+
+.button {
+	display: inline-block;
+	border: 1px solid transparent;
+	padding: .5rem 1rem;
+	font-size: 1rem;
+	border-radius: .25rem;
+	color: #fff;
+	background-color: #0275d8;
+	border-color: #0275d8;
+	line-height: 1.25;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.button:hover {
+	color: #fff;
+	background-color: #025aa5;
+	border-color: #01549b;
+}
+
 #container {
 	margin: 10px 5px 0;
 }
