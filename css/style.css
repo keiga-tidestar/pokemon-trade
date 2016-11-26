@@ -1,11 +1,13 @@
-#container {
-	width: 1024px;
-	margin: 10px auto 0;
-}
+@media screen and (min-width: 800px) {
+	#container {
+		width: 1024px;
+		margin: 10px auto 0;
+	}
 
-#spreadsheets {
-	width: 600px;
-	height: 300px;
-	margin: 0 auto;
-	display: block;
+	#spreadsheets {
+		width: 600px;
+		height: 300px;
+		margin: 0 auto;
+		display: block;
+	}
 }
