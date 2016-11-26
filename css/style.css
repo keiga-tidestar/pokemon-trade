@@ -10,6 +10,12 @@ ul {
 	list-style: none;
 }
 
+p,
+ul {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
 .button,
 .button:hover,
 .button:focus {
