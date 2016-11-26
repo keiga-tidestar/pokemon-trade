@@ -9,6 +9,7 @@ body {
 
 #spreadsheets {
 	width: 90%;
+	height: 300px;
 	display: block;
 	margin: 0 auto;
 }
@@ -21,6 +22,5 @@ body {
 
 	#spreadsheets {
 		width: 600px;
-		height: 300px;
 	}
 }
