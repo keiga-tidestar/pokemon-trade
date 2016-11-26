@@ -1,3 +1,18 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	margin: 10px 5px 0;
+}
+
+#spreadsheets {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
 @media screen and (min-width: 800px) {
 	#container {
 		width: 1024px;
@@ -7,7 +22,5 @@
 	#spreadsheets {
 		width: 600px;
 		height: 300px;
-		margin: 0 auto;
-		display: block;
 	}
 }
