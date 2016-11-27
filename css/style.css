@@ -26,9 +26,4 @@ ul {
 	#spreadsheets {
 		width: 600px;
 	}
-
-	.button-list .button {
-		display: inline-block;
-		width: auto;
-	}
 }
