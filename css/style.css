@@ -21,9 +21,3 @@ ul {
 	display: block;
 	margin: 0 auto;
 }
-
-@media screen and (min-width: 800px) {
-	#spreadsheets {
-		width: 600px;
-	}
-}
