@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 
-<html lang="ja-jp">
+<html lang="ja">
 
 	<head>
 		<title>ポケモン交換用的な何か</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 
 	<body>
-		<div id="container">
-			<h1>ポケモン交換用的な何か</h1>
+		<div class="container">
+			<div class="page-header">
+				<h1>ポケモン交換用的な何か</h1>
+			</div>
 
-			<p>交換の依頼は <a href="https://twitter.com/keiga_jp" target="_blank">Twitter</a> までお願いします。</p>
+			<div class="row">
+				<div class="col-sm-8">
+					<p>交換の依頼は <a href="https://twitter.com/keiga_jp" target="_blank">Twitter</a> までお願いします。</p>
 
-			<iframe id="spreadsheets" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTB7OIi6Lb8w14fp0K4vo-NhdrKXAveY3BNWpmM7ErNnBmK83a47JBOnM2vGJEu5QZbDmWDD500YUv6/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-			<ul class="button-list">
-				<li><a href="https://www.evernote.com/shard/s203/sh/1b4ad745-04b9-4390-b64a-cb525a681c7c/859a5b7a44f02a1f" target="_blank" class="button">第6世代</a></li>
-			</ul>
+					<p>
+						<iframe id="spreadsheets" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTB7OIi6Lb8w14fp0K4vo-NhdrKXAveY3BNWpmM7ErNnBmK83a47JBOnM2vGJEu5QZbDmWDD500YUv6/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<div class="list-group">
+						<!--<a href="" class="list-group-item active">第7世代</a>-->
+						<a href="https://www.evernote.com/shard/s203/sh/1b4ad745-04b9-4390-b64a-cb525a681c7c/859a5b7a44f02a1f" target="_blank" class="list-group-item">第6世代</a>
+					</div>
+				</div>
+			</div>
 		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 
 </html>
