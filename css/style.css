@@ -16,12 +16,8 @@ ul {
 }
 
 #spreadsheets {
-	width: 90%;
+	width: 100%;
 	height: 300px;
 	display: block;
 	margin: 0 auto;
-}
-
-.generation-link-group {
-	margin-top: 20px;
 }
